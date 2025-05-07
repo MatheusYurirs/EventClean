@@ -11,6 +11,7 @@ public record Event(Long id,
                     LocalDateTime dataInicioEvento,
                     LocalDateTime dataFimEvento,
                     String localDoEvento,
+                    Integer capacidade,
                     String organizador,
                     TipoEvento tipoDeEvento) {
 }
