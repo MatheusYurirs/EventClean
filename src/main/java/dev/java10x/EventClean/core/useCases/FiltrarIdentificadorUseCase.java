@@ -2,7 +2,7 @@ package dev.java10x.EventClean.core.useCases;
 
 import dev.java10x.EventClean.core.entities.Event;
 
-public interface CriarEventoCase {
+public interface FiltrarIdentificadorUseCase {
 
-    public Event execute(Event event);
+    public Event execute(String identificador);
 }
